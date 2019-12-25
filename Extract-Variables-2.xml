@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="Extract-Variables-2">
+    <Source>request</Source>
+    <VariablePrefix>urielement</VariablePrefix>
+    <URIPath>
+        <Pattren ignoreCase="true">.author/{author}</Pattren>
+    </URIPath>
+</ExtractVariables>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="Assign-Message-2">
+    <AssignTo createNew="false" transport="http" type="request"/>
+    <Set>
+        <Verb>POST</Verb>
+        <Payload contentType="text/xml">
+            <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+                <s:Header/>
+                <s:Body>
+                    <urn:findEntriesByTitle xmlns:urn="urn:librarysample.services.apigee.com">
+                        <urn:title>{urielement.author}</urn:title>
+                    </urn:findEntriesByTitle>
+                </s:Body>
+            </s:Envelope>
+        </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+</AssignMessage>

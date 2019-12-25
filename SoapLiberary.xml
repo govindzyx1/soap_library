@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="SoapLiberary">
+    <Basepaths>/v1/soapliberary</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1559456589634</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>SoapLiberary</DisplayName>
+    <LastModifiedAt>1559456589634</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:fcafdcc2f38779cb6c2b17aa626b625090ec49e4a400e44e0775254088b1da80f00c5923f5ce3d52406e5f5461c29c4acbe10adc88affed06b6aec0353fa00b8</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Assign-Message-2</Policy>
+        <Policy>Assign-Message-3</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Extract-Variables-2</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
